@@ -47,7 +47,7 @@ public class FXMLController {
         assert tblBusiness != null : "fx:id=\"tblBusiness\" was not injected: check your FXML file 'Scene.fxml'.";
 
         colName.setCellValueFactory(new PropertyValueFactory<Business,String>("businessName"));
-        colStars.setCellValueFactory(new PropertyValueFactory<Business,Double>("stars"));
+        colStars.setCellValueFactory(new PropertyValueFactory<Business, Double>("stars"));
     }
 
 }

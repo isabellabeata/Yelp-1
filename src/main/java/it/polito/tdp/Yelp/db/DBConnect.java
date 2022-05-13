@@ -18,7 +18,7 @@ public class DBConnect {
 			ds = new HikariDataSource();
 			ds.setJdbcUrl(url);
 			ds.setUsername("root");
-			ds.setPassword("root");
+			ds.setPassword("isabella");
 		}
 
 		try {
